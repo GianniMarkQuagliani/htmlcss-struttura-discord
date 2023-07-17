@@ -20,7 +20,6 @@ nav{
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  background-color: rgb(83, 48, 2);
 }
 
 /* ho tolto la decorazione e aggiunto un colore  */
@@ -100,4 +99,9 @@ ul{
 
 .bg-grey{
   background-color: rgb(210, 210, 210);
+}
+
+.green-contenuto{
+  background-color: rgb(35, 138, 49);
+  height: 800px;
 }
