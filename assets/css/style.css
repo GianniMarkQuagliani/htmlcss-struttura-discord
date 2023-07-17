@@ -30,12 +30,12 @@ a{
 }
 
 /* Ho fatto diventare le calssi nav, links e login, flessibili, il valore di justify-content è stato impostato su space-between per distanziare gli oggetti uniformemente sull'asse principale.  */
-.flex{
+.row{
   display: flex;
   justify-content: space-between;
 }
 
-.flex2{
+.row2{
   display: flex;
 }
 
@@ -86,17 +86,17 @@ ul{
 .contenitore-grande{
   background-color: green;
   height: 400px;
-  float: left;
   width: 400px;
 }
 .contenitore-piccolo{
   background-color: rgb(197, 14, 105);
-  height: 400px;
-  float: left;
-  width: 400px;
+  flex-grow: 1;
 }
 
 
+.reverse{
+  flex-direction: row-reverse;
+}
 
 /* da eliminare  */
 
