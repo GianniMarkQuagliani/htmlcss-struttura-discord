@@ -143,5 +143,14 @@ footer{
   margin-bottom: 15px;
 }
 
+.end-footer{
+  background-color: rgb(121, 255, 213);
+  padding: 15px 0;
+}
 
+.logo-footer,
+.bottone-footer{
+  background-color: rgb(255, 180, 191);
+  padding: 5px;
+}
 
