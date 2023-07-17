@@ -110,3 +110,9 @@ ul{
   background-color: rgb(35, 138, 49);
   height: 800px;
 }
+
+/* footer  */
+footer{
+  padding-bottom: 20px;
+  background-color: blueviolet;
+}
