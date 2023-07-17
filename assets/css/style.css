@@ -72,6 +72,9 @@ ul{
 }
 .pink-contenuto{
   background-color: rgb(218, 218, 25);
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
