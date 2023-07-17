@@ -74,7 +74,7 @@ ul{
   padding: 30px 0;
 }
 .pink-section{
-  background-color: blue;
+  background-color: rgb(0, 0, 135);
 }
 .pink-contenuto{
   background-color: rgb(239, 127, 234);
@@ -84,28 +84,20 @@ ul{
 }
 
 .contenitore-grande{
-  background-color: green;
+  background-color: rgb(0, 142, 251);
   height: 400px;
   flex-grow: 2;
 }
 .contenitore-piccolo{
-  background-color: rgb(197, 14, 105);
+  background-color: rgb(255, 190, 201);
   flex-grow: 1;
 }
 
+/* */
 .reverse{
   flex-direction: row-reverse;
 }
 
-/* da eliminare  */
-
-body{
-  background-color: red;
+.bg-grey{
+  background-color: rgb(210, 210, 210);
 }
-
-footer{
-  background-color: blueviolet;
-  width: auto;
-  height: 300px;
-}
-
