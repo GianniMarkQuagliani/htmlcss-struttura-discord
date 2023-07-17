@@ -113,6 +113,28 @@ ul{
 
 /* footer  */
 footer{
-  padding-bottom: 20px;
-  background-color: blueviolet;
+  background-color: rgb(40, 43, 46);
 }
+
+.cols{
+  width: 25%;
+}
+
+.footer-contenuto{
+  padding-bottom: 20px;
+}
+
+.footer-grande{
+  background-color: rgb(14, 177, 169);
+  flex-grow: 2;
+  height: 600px;
+}
+.footer-piccolo{
+  background-color: rgb(242, 127, 127);
+  flex-grow: 1;
+}
+
+.bianco-border{
+  border: 1px dashed rgb(255, 255, 255);
+}
+
