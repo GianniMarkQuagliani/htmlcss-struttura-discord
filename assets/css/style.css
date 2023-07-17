@@ -86,7 +86,7 @@ ul{
 .contenitore-grande{
   background-color: green;
   height: 400px;
-  width: 400px;
+  flex-grow: 2;
 }
 .contenitore-piccolo{
   background-color: rgb(197, 14, 105);
