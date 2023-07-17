@@ -1,13 +1,20 @@
+/* ho fatto un reset  */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ho definito un colore a header e a nav*/
 header{
   background-color: rgb(170, 215, 229);
 }
 
+nav{
+  background-color: rgb(219, 164, 52);
+}
+
+/* ho aggiunto un contenitore, definendo l'altezza massima e minima, ho definito anche i margini destra e sinistra mettendoli in auto e uno spazio  */
 .container{
   max-width: 1000px;
   min-width: 300px;
@@ -16,10 +23,50 @@ header{
   padding: 10px;
 }
 
-.logo{
-  width: 20%;
+/* ho tolto la decorazione e aggiunto un colore  */
+a{
+  text-decoration: none;
+  color: rgb(6, 16, 17);
+}
+
+/* Ho fatto diventare le calssi nav, links e login, flessibili, il valore di justify-content è stato impostato su space-between per distanziare gli oggetti uniformemente sull'asse principale.  */
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ho aggiunto un bordo tratteggiato  */
+.border{
+  border: 1px dashed black;
+}
+
+/* ho definito una larghezza e uno spazio nei links */
+.links{
+  width: 100%;
   padding: 10px;
 }
+
+/* ho tolto lo style, eliminando i pallini  */
+ul{
+  list-style: none;
+}
+
+/* ho definito una larghezza, uno spazio e allineato il testo, del logo e del login */
+.logo,
+.login{
+  width: 20%;
+  padding: 10px;
+  text-align: left;
+}
+
+.login{
+  text-align: right;
+}
+
+
+
+
+/* da eliminare  */
 
 body{
   background-color: red;
